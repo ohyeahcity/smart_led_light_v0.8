@@ -88,8 +88,8 @@ function changeImageByLang(lang_index){
           // document.getElementById('lang_pic_cause').src = "images/come_img01.jpg" ;
           // document.getElementById('lang_comeright').src = "images/PM_info.png" ;
           document.getElementById('lang_timeswitch_img').src = "images/timeswitch.jpg" ;
-          document.getElementById('lang_blue_img').src = "images/bluetooth_bg.jpg" ;
-          document.getElementById('lang_blue_img_min').src = "images/bluetooth_bg_min.jpg" ;
+          document.getElementById('lang_blue_img').src = "images/group_bg.jpg" ;
+          // document.getElementById('lang_blue_img_min').src = "images/bluetooth_bg_min.jpg" ;
           console.log("image is cht");
         } else {
           // document.getElementById('slideshowImage1').src = "images/slider_example_1_eng.jpg" ;
@@ -97,8 +97,8 @@ function changeImageByLang(lang_index){
           // document.getElementById('lang_pic_cause').src = "images/come_img01_eng.jpg" ;
           // document.getElementById('lang_comeright').src = "images/PM_info_eng.png" ;
           document.getElementById('lang_timeswitch_img').src = "images/timeswitch_eng.jpg" ;
-          document.getElementById('lang_blue_img').src = "images/bluetooth_bg_eng.jpg" ;
-          document.getElementById('lang_blue_img_min').src = "images/bluetooth_bg_min_eng.jpg" ;
+          document.getElementById('lang_blue_img').src = "images/group_bg_eng.jpg" ;
+          // document.getElementById('lang_blue_img_min').src = "images/bluetooth_bg_min_eng.jpg" ;
           console.log("english image now");
         }
   return;
