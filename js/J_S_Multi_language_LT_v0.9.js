@@ -125,6 +125,7 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_feature_cont02').innerHTML = arr[lang_index].lang_feature_cont02;
   document.getElementById('lang_feature_cont03').innerHTML = arr[lang_index].lang_feature_cont03;
   document.getElementById('lang_feature_cont04').innerHTML = arr[lang_index].lang_feature_cont04;
+  document.getElementById('lang_feature_cont04_1').innerHTML = arr[lang_index].lang_feature_cont04_1;
   document.getElementById('lang_feature_cont05').innerHTML = arr[lang_index].lang_feature_cont05;
   document.getElementById('lang_feature_cont06').innerHTML = arr[lang_index].lang_feature_cont06;
   // document.getElementById('lang_vent_title').innerHTML = arr[lang_index].lang_vent_title;
@@ -237,9 +238,9 @@ Multi_Lang_Wording[2]="JP - 日本語";
 
 //多語系網頁Title招呼語 (顯示在瀏覽TAB上)
 Multi_Lang_Title= new Array();
-Multi_Lang_Title[0]="歡迎來到EQL - PM2.5網站";
-Multi_Lang_Title[1]="Welcome to EQL - PM2.5";
-Multi_Lang_Title[2]="EQLへようこそ - PM2.5";
+Multi_Lang_Title[0]="歡迎來到EQL - Smart Led Light網站";
+Multi_Lang_Title[1]="Welcome to EQL - Smart Led Light";
+Multi_Lang_Title[2]="EQLへようこそ - Smart Led Light";
 
 
 //=====文字儲存區 END======
