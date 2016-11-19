@@ -709,3 +709,27 @@ tbody{font-family:Helvetica, sans-serif, Arial, 'LiHei Pro', '微軟正黑體','
 
 
 }
+
+
+.jumbotron.timeswitch{
+  background-image: url(../images/timeswitch.jpg);
+  background-size:cover;
+  min-height:950px;
+
+}
+.jumbotron.group{
+  background-image: url(../images/group_bg.jpg);
+  background-size:cover;
+  min-height:950px;
+  padding-bottom: 0px:
+  margin:0px;
+}
+
+@media(min-width:993px){
+
+  .jumbotron.timeswitch{
+    background-image: url(../images/timeswitch_min.jpg);
+
+
+  }
+}
