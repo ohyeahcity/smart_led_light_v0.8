@@ -83,22 +83,27 @@ function changeNavBarUIWording(lang_index){
 //控制圖片中的語系
 function changeImageByLang(lang_index){
     if(lang_index==0){
-          // document.getElementById('slideshowImage1').src = "images/slider_example_1.jpg" ;
-          // document.getElementById('slideshowImage2').src = "images/slider_example_2.jpg" ;
+          document.getElementById('slideshowImage1').src = "images/smart_led_light_1.jpg" ;
+          document.getElementById('slideshowImage2').src = "images/smart_led_light_2.jpg" ;
           // document.getElementById('lang_pic_cause').src = "images/come_img01.jpg" ;
           // document.getElementById('lang_comeright').src = "images/PM_info.png" ;
-          document.getElementById('lang_timeswitch_img').src = "images/timeswitch.jpg" ;
-          document.getElementById('lang_blue_img').src = "images/group_bg.jpg" ;
-          // document.getElementById('lang_blue_img_min').src = "images/bluetooth_bg_min.jpg" ;
+          
+          document.getElementById('lang_schedule_img').src = "images/schedule.jpg" ;
+          document.getElementById('lang_schedule_img_min').src = "images/schedule_min.jpg" ;
+          document.getElementById('lang_control_img').src = "images/control.jpg" ;
+          document.getElementById('lang_control_img_min').src = "images/control_min.jpg" ;
+          document.getElementById('lang_download_img').src = "images/download_title.jpg" ;
           console.log("image is cht");
         } else {
-          // document.getElementById('slideshowImage1').src = "images/slider_example_1_eng.jpg" ;
-          // document.getElementById('slideshowImage2').src = "images/slider_example_2_eng.jpg" ;
+          document.getElementById('slideshowImage1').src = "images/smart_led_light_1_eng.jpg" ;
+          document.getElementById('slideshowImage2').src = "images/smart_led_light_2_eng.jpg" ;
           // document.getElementById('lang_pic_cause').src = "images/come_img01_eng.jpg" ;
           // document.getElementById('lang_comeright').src = "images/PM_info_eng.png" ;
-          document.getElementById('lang_timeswitch_img').src = "images/timeswitch_eng.jpg" ;
-          document.getElementById('lang_blue_img').src = "images/group_bg_eng.jpg" ;
-          // document.getElementById('lang_blue_img_min').src = "images/bluetooth_bg_min_eng.jpg" ;
+          document.getElementById('lang_schedule_img').src = "images/schedule_eng.jpg" ;
+          document.getElementById('lang_schedule_img_min').src = "images/schedule_min_eng.jpg" ;
+          document.getElementById('lang_control_img').src = "images/control_eng.jpg" ;
+           document.getElementById('lang_control_img_min').src = "images/control_min_eng.jpg" ;
+         document.getElementById('lang_download_img').src = "images/download_title_eng.jpg" ;
           console.log("english image now");
         }
   return;
@@ -113,26 +118,20 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_navch').innerHTML = arr[lang_index].lang_navch;
   document.getElementById('lang_naven').innerHTML = arr[lang_index].lang_naven;
   document.getElementById('lang_navshop').innerHTML = arr[lang_index].lang_navshop;
-  document.getElementById('lang_comeright_cont').innerHTML = arr[lang_index].lang_comeright_cont;
-  document.getElementById('lang_cause_cont01').innerHTML = arr[lang_index].lang_cause_cont01;
-  document.getElementById('lang_cause_cont02').innerHTML = arr[lang_index].lang_cause_cont02;
-  document.getElementById('lang_deep_title').innerHTML = arr[lang_index].lang_deep_title;
-  document.getElementById('lang_deep_cont01').innerHTML = arr[lang_index].lang_deep_cont01;
-  document.getElementById('lang_deep_cont02').innerHTML = arr[lang_index].lang_deep_cont02;
-  document.getElementById('lang_deep_cont03').innerHTML = arr[lang_index].lang_deep_cont03;
+
   document.getElementById('lang_feature_title').innerHTML = arr[lang_index].lang_feature_title;
   document.getElementById('lang_feature_cont01').innerHTML = arr[lang_index].lang_feature_cont01;
+  // document.getElementById('lang_feature_cont01_1').innerHTML = arr[lang_index].lang_feature_cont01_1;
+  
   document.getElementById('lang_feature_cont02').innerHTML = arr[lang_index].lang_feature_cont02;
   document.getElementById('lang_feature_cont03').innerHTML = arr[lang_index].lang_feature_cont03;
   document.getElementById('lang_feature_cont04').innerHTML = arr[lang_index].lang_feature_cont04;
   document.getElementById('lang_feature_cont04_1').innerHTML = arr[lang_index].lang_feature_cont04_1;
   document.getElementById('lang_feature_cont05').innerHTML = arr[lang_index].lang_feature_cont05;
   document.getElementById('lang_feature_cont06').innerHTML = arr[lang_index].lang_feature_cont06;
-  // document.getElementById('lang_vent_title').innerHTML = arr[lang_index].lang_vent_title;
-  // document.getElementById('lang_light_title').innerHTML = arr[lang_index].lang_light_title;
-  // document.getElementById('lang_download_title').innerHTML = arr[lang_index].lang_download_title;
-  // document.getElementById('lang_bl_title').innerHTML = arr[lang_index].lang_bl_title;
-  // document.getElementById('lang_bl_text').innerHTML = arr[lang_index].lang_bl_text;
+  
+  document.getElementById('lang_bl_title').innerHTML = arr[lang_index].lang_bl_title;
+  document.getElementById('lang_bl_text').innerHTML = arr[lang_index].lang_bl_text; 
   document.getElementById('lang_download_text01').innerHTML = arr[lang_index].lang_download_text01;
   document.getElementById('lang_iphone_title').innerHTML = arr[lang_index].lang_iphone_title;
   document.getElementById('lang_iphone_text').innerHTML = arr[lang_index].lang_iphone_text;
@@ -148,13 +147,19 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_spec_text02').innerHTML = arr[lang_index].lang_spec_text02;
   document.getElementById('lang_spec_title03a').innerHTML = arr[lang_index].lang_spec_title03a;
   document.getElementById('lang_spec_text03').innerHTML = arr[lang_index].lang_spec_text03;
-  document.getElementById('lang_spec_text03_1').innerHTML = arr[lang_index].lang_spec_text03_1;
+
   document.getElementById('lang_spec_title04').innerHTML = arr[lang_index].lang_spec_title04;
   document.getElementById('lang_spec_text04').innerHTML = arr[lang_index].lang_spec_text04;
   document.getElementById('lang_spec_title05').innerHTML = arr[lang_index].lang_spec_title05;
   document.getElementById('lang_spec_text05').innerHTML = arr[lang_index].lang_spec_text05;
   document.getElementById('lang_spec_title06').innerHTML = arr[lang_index].lang_spec_title06;
   document.getElementById('lang_spec_text06').innerHTML = arr[lang_index].lang_spec_text06;
+  document.getElementById('lang_spec_title07').innerHTML = arr[lang_index].lang_spec_title07;
+  document.getElementById('lang_spec_text07').innerHTML = arr[lang_index].lang_spec_text07;
+  document.getElementById('lang_spec_title08').innerHTML = arr[lang_index].lang_spec_title08;
+  document.getElementById('lang_spec_text08').innerHTML = arr[lang_index].lang_spec_text08;
+  document.getElementById('lang_spec_title09').innerHTML = arr[lang_index].lang_spec_title09;
+  document.getElementById('lang_spec_text09').innerHTML = arr[lang_index].lang_spec_text09;
   return;
 }
 function detectUserLang(){

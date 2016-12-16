@@ -239,12 +239,12 @@ margin: 0 auto;
 
   font-family: 微軟正黑體;
   line-height:45px;
-  letter-spacing: 1px;
-  font-size: 30px;
+  letter-spacing: -1px;
+  font-size: 29px;
 }
 
 .FEATURE p{
-  font-size: 20px;
+  font-size: 18px;
   /*font-weight:bold;*/
   text-align: center;
   color: white;
@@ -502,12 +502,19 @@ font-weight:bolder;
   margin: 0 auto;
 }
 
-/*@media(min-width:993px){
+@media(min-width:993px){
 
   .BLUE{
     display: block;
   }
   .BLUE_min{
+    display: none;
+  }
+
+  .BLUE_group{
+    display: block;
+  }
+  .BLUE_group_min{
     display: none;
   }
 }
@@ -521,7 +528,14 @@ font-weight:bolder;
     display: block;
   }
 
-}*/
+  .BLUE_group{
+    display: none;
+  }
+  .BLUE_group_min{
+    display: block;
+  }
+
+}
 
 
 
